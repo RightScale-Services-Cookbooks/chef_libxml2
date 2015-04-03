@@ -14,4 +14,4 @@ else
 end
 
 default['libxml2']['install_devel'] = true
-default['libxml2']['compile_time'] = false
+default['libxml2']['compile_time'] = true
