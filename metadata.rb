@@ -12,3 +12,5 @@ depends          'apt'
 %w{ amazon redhat ubuntu centos}.each do |distro|
 	supports distro
 end
+
+recipe "libxml2::default", "installs libxml2"
